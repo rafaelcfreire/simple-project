@@ -16,6 +16,6 @@ class SampleControllerTest {
 
     @Test
     public void testSampleController() {
-        assertEquals("Hello World!!", sampleController.getResponse());
+        assertEquals("Hello World", sampleController.getResponse());
     }
 }
